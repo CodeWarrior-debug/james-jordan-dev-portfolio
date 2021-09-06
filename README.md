@@ -1,11 +1,11 @@
-## James Jordan
+<!-- ## James Jordan
 
 Front-End Web Developer & Data Analyst, trained in Full-Stack web dev
 
-My go-to => SERN stack. Eager to master more stacks & am working on WordPress & Shopify projects. 
+My go-to => SERN stack. Eager to master more stacks & am working on WordPress & Shopify projects.  -->
 
 <!-- Visit my [portfolio](https://shawnfox.herokuapp.com) -->
-
+<!-- 
 ## ⚡ Technologies
 
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
@@ -35,7 +35,7 @@ My go-to => SERN stack. Eager to master more stacks & am working on WordPress & 
   Getting into the freelancing game.
 
 ⚡ Fun fact: ...
-  I collect artifacts for the ultimate Halloween Viking costume.
+  I collect artifacts for the ultimate Halloween Viking costume. -->
   
 <!--
 **CodeWarrior-debug/codewarrior-debug** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

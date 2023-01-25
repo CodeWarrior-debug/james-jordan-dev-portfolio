@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, {Component, useState, useEffect} from "react";
 import Header from "../components/header";
 import Greeting from "./greeting/Greeting";
 import Skills from "./skills/Skills";
@@ -13,7 +13,48 @@ import {StyleProvider} from "../contexts/StyleContext";
 import "./Main.css";
 import Profile from "./profile/Profile";
 
-export default class Main extends Component {
+
+
+//NEW CODE
+
+//[isDark, setIsDark] = useState(false);
+
+// useEffect= ()=>{
+
+//   if (localStorage.getItem("isDark") === null) {
+//     const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
+//     localStorage.setItem("isDark", darkPref.matches);
+//   }
+
+//   setIsDark({isDark: JSON.parse(localStorage.getItem("isDark"))});
+
+
+// changeTheme = () => {
+//   setIsDark({isDark: !this.state.isDark}, () => {
+//     localStorage.setItem("isDark", isDark);
+//   });}
+  
+//   , []
+
+// }
+
+// const Main = () => {
+//   return (
+//     <>
+      
+//     </>
+//   )
+// }
+
+// export default Main
+
+
+
+
+
+
+
+export default class Main_Old extends Component {
   constructor(props) {
     super(props);
     this.state = {

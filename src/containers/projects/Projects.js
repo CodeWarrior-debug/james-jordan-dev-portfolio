@@ -12,7 +12,7 @@ export default function Projects() {
   const renderLoader = () => <Loading />;
   const [repo, setrepo] = useState([]);
   // todo: remove useContex because is not supported
-  const {isDark} = useContext(StyleContext);
+  // const {isDark} = useContext(StyleContext);
 
   useEffect(() => {
     const getRepoData = () => {
@@ -50,9 +50,8 @@ export default function Projects() {
           <h1 className="project-title">Open Source Projects</h1>
           <div className="repo-cards-div-main">
             {repo.map((v, i) => {
-              return (
-                <GithubRepoCard repo={v} key={v.node.id} isDark={isDark} />
-              );
+              return ( <GithubRepoCard repo={v} key={v.node.id} /> );
+              // return ( <GithubRepoCard repo={v} key={v.node.id} isDark={isDark} /> );
             })}
           </div>
           <Button

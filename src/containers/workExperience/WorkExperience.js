@@ -6,7 +6,7 @@ import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function WorkExperience() {
-  const {isDark} = useContext(StyleContext);
+  // const {isDark} = useContext(StyleContext);
   if (workExperiences.display) {
     return (
       <div id="experience">
@@ -19,7 +19,7 @@ export default function WorkExperience() {
                   return (
                     <ExperienceCard
                       key={i}
-                      isDark={isDark}
+                      // isDark={isDark}
                       cardInfo={{
                         company: card.company,
                         desc: card.desc,

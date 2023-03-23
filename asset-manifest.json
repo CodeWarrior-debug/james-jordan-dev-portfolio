@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.91486159.chunk.css",
+    "main.js": "/static/js/main.1ebfcd16.chunk.js",
+    "main.js.map": "/static/js/main.1ebfcd16.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7c177afa.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7c177afa.js.map",
+    "static/js/2.8b3df51b.chunk.js": "/static/js/2.8b3df51b.chunk.js",
+    "static/js/2.8b3df51b.chunk.js.map": "/static/js/2.8b3df51b.chunk.js.map",
+    "static/css/3.3a26ebde.chunk.css": "/static/css/3.3a26ebde.chunk.css",
+    "static/js/3.9d02d5f1.chunk.js": "/static/js/3.9d02d5f1.chunk.js",
+    "static/js/3.9d02d5f1.chunk.js.map": "/static/js/3.9d02d5f1.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.0790a921699fd8d8e64c2bcb8593fc0b.js": "/precache-manifest.0790a921699fd8d8e64c2bcb8593fc0b.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/3.3a26ebde.chunk.css.map": "/static/css/3.3a26ebde.chunk.css.map",
+    "static/css/main.91486159.chunk.css.map": "/static/css/main.91486159.chunk.css.map",
+    "static/js/2.8b3df51b.chunk.js.LICENSE.txt": "/static/js/2.8b3df51b.chunk.js.LICENSE.txt",
+    "static/media/007-Reviews.gif": "/static/media/007-Reviews.55d0ad7c.gif",
+    "static/media/PokeBaller.gif": "/static/media/PokeBaller.aa52dabc.gif",
+    "static/media/gcc_circle_2.jpg": "/static/media/gcc_circle_2.dc2ce93f.jpg",
+    "static/media/memento_tv_multiverse.png": "/static/media/memento_tv_multiverse.712e8ddc.png",
+    "static/media/sellethics_2.jpg": "/static/media/sellethics_2.72cbf20e.jpg",
+    "static/media/urg_cbkgc0vp_400x400.png": "/static/media/urg_cbkgc0vp_400x400.0d2ce55c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c177afa.js",
+    "static/js/2.8b3df51b.chunk.js",
+    "static/css/main.91486159.chunk.css",
+    "static/js/main.1ebfcd16.chunk.js"
+  ]
+}

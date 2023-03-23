@@ -1,8 +1,8 @@
 {
   "homepage": "https://codewarrior-debug.github.io",
   "name": "james-jordan-one-page-portfolio",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.2.0",
+  "private": false,
   "dependencies": {
     "colorthief": "^2.3.0",
     "enzyme": "^3.11.0",

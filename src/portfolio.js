@@ -12,7 +12,7 @@ const greeting = {
   username: "James Jordan",
   title: "Greetings. James Jordan here, let's work together👨‍🔧",
   subTitle: emoji(
-    "Sites 🌐 graphs 📊 servers 🖧 spreadsheets 📝 documentation ✍️ JavaScript 👨‍💻 or ReactJs => I'm your guy!"
+    "Sites 🌐 graphs 📊 📊 servers 🖧 spreadsheets 📝 documentation ✍️ JavaScript 👨‍💻 or ReactJs => I'm your guy!"
   ),
   resumeLink: "https://docs.google.com/document/d/1NvdS03IKCQ9IrqXdkVC6wcdHhJv1MOV5/edit?usp=sharing&ouid=108132765582127410218&rtpof=true&sd=true",
   displayGreeting: true // Set false to hide this section, defaults to true

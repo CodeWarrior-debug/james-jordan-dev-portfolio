@@ -10,9 +10,9 @@ const illustration = {
 
 const greeting = {
   username: "James Jordan",
-  title: "Greetings. James Jordan here, let's work together👨‍🔧",
+  title: "James Jordan here, let's work together👨‍🔧",
   subTitle: emoji(
-    "Sites 🌐 graphs 📊 📊 servers 🖧 spreadsheets 📝 documentation ✍️ JavaScript 👨‍💻 or ReactJs => I'm your guy!"
+    "Sites 🌐 graphs 📊 servers 🖧 spreadsheets 📝 documentation ✍️ JavaScript 👨‍💻  ReactJs => I'm your guy!"
   ),
   resumeLink: "https://docs.google.com/document/d/1NvdS03IKCQ9IrqXdkVC6wcdHhJv1MOV5/edit?usp=sharing&ouid=108132765582127410218&rtpof=true&sd=true",
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -175,9 +175,25 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
+  
   title: "Projects",
   subtitle: "Group and Individual projects I've contributed to!",
-  projects: [{
+  projects: [
+    {
+      // TODO: get pic  image: require("./assets/images/QuirkyQuiz.png"),
+      projectName: "007-Reviews",
+      projectDesc: "Bond, James Bond's reviews. Summaries, beautiful photos, movie facts, and ratings comparisons (yours vs. TMDB users) of The Man with The Golden Gun.",
+      footerLink: [{
+          name: "Deployed App",
+          url: "https://www.007-reviews.com/"
+        },
+        {
+          name: "Source Code",
+          url: "https://www.007-reviews.com/"
+        },
+        //  you can add extra buttons here.
+      ]
+    },{
       // TODO: get pic  image: require("./assets/images/QuirkyQuiz.png"),
       projectName: "Memento Multiverse",
       projectDesc: "Memento Multiverse is a fun and funny web store for merch that appreciates your favorite shows, their inside jokes, and transports you into their worlds.",

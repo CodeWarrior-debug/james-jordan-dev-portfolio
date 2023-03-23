@@ -15,12 +15,19 @@
   font-size: 17px;
   line-height: 1.5rem;
 }
-/* 
-
 
 .project-image{
+  height:800px;
+  
+}
+
+.card-image{
   object-fit: cover;
 }
+
+
+
+
 
 .project-card {
   display: flex;

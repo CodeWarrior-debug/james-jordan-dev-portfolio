@@ -189,7 +189,7 @@ const bigProjects = {
           url: "https://www.007-reviews.com/"
         },
         {
-          name: "Source Code",
+          name: "GitHub Repo",
           url: "https://github.com/CodeWarrior-debug/007-reviews"
         },
         //  you can add extra buttons here.
@@ -204,7 +204,7 @@ const bigProjects = {
           url: "https://memento-tv-multiverse.herokuapp.com/"
         },
         {
-          name: "Source Code",
+          name: "GitHub Repo",
           url: "https://github.com/CodeWarrior-debug/Memento-Multiverse"
         },
         //  you can add extra buttons here.
@@ -220,8 +220,8 @@ const bigProjects = {
           url: "http://pokeballers.herokuapp.com/"
         },
         {
-          name: "Source Code",
-          url: "https://www.007-reviews.com/"
+          name: "GitHub Repo",
+          url: "https://github.com/CodeWarrior-debug/PokeBaller"
         },
         //  you can add extra buttons here.
       ]

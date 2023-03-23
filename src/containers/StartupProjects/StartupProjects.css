@@ -15,6 +15,13 @@
   font-size: 17px;
   line-height: 1.5rem;
 }
+/* 
+
+
+.project-image{
+  object-fit: cover;
+}
+
 .project-card {
   display: flex;
   flex-direction: column;

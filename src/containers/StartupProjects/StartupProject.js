@@ -1,8 +1,11 @@
-import React, {useContext} from "react";
+// import React, {useContext} from "react";
+import React from "react"
 import "./StartupProjects.css";
 import {bigProjects} from "../../portfolio";
 import {Fade} from "react-reveal";
-import StyleContext from "../../contexts/StyleContext";
+// import StyleContext from "../../contexts/StyleContext";
+import "../../assets/images/uncclogo.png"
+
 
 export default function StartupProject() {
   function openProjectInNewWindow(url) {
@@ -16,7 +19,7 @@ export default function StartupProject() {
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="projects">
-        <div>
+
           <h1 className="skills-heading">{bigProjects.title}</h1>
           <p
             className="subTitle project-subtitle" 
@@ -66,7 +69,7 @@ export default function StartupProject() {
               );
             })}
           </div>
-        </div>
+        
       </div>
     </Fade>
   );

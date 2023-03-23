@@ -177,10 +177,11 @@ const openSource = {
 const bigProjects = {
   
   title: "Projects",
-  subtitle: "Group and Individual projects I've contributed to!",
+  subtitle: "Projects I've contributed to!",
   projects: [
     {
       // TODO: get pic  image: require("./assets/images/QuirkyQuiz.png"),
+      image: require("./assets/images/007-Reviews.gif"),
       projectName: "007-Reviews",
       projectDesc: "Bond, James Bond's reviews. Summaries, beautiful photos, movie facts, and ratings comparisons (yours vs. TMDB users) of The Man with The Golden Gun.",
       footerLink: [{
@@ -189,29 +190,39 @@ const bigProjects = {
         },
         {
           name: "Source Code",
-          url: "https://www.007-reviews.com/"
+          url: "https://github.com/CodeWarrior-debug/007-reviews"
         },
         //  you can add extra buttons here.
       ]
     },{
       // TODO: get pic  image: require("./assets/images/QuirkyQuiz.png"),
+      image: require("./assets/images/memento_tv_multiverse.png"),
       projectName: "Memento Multiverse",
       projectDesc: "Memento Multiverse is a fun and funny web store for merch that appreciates your favorite shows, their inside jokes, and transports you into their worlds.",
       footerLink: [{
-          name: "Deployed Application",
+          name: "Deployed App",
           url: "https://memento-tv-multiverse.herokuapp.com/"
-        }
+        },
+        {
+          name: "Source Code",
+          url: "https://github.com/CodeWarrior-debug/Memento-Multiverse"
+        },
         //  you can add extra buttons here.
       ]
     },
     {
       // TODO: get pic  image: require("./assets/images/QuirkyQuiz.png"),
+      image: require("./assets/images/PokeBaller.gif"),
       projectName: "PokeBaller",
       projectDesc: "PokeBaller is a Card Inventory Organizer where you can digitally track your Pokemon cards. Eye-candy!",
       footerLink: [{
-          name: "Deployed Application",
+          name: "Deployed App",
           url: "http://pokeballers.herokuapp.com/"
-        }
+        },
+        {
+          name: "Source Code",
+          url: "https://www.007-reviews.com/"
+        },
         //  you can add extra buttons here.
       ]
     },

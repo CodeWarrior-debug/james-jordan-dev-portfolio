@@ -64,6 +64,15 @@ export default function StartupProject() {
                         })}
                       </div>
                     ) : null}
+                    { project.techUsed ?
+                      <div>
+
+                        "TECH: " & {project.stackDescription}
+                      </div>
+                      : null
+                    }
+                      
+                    
                   </div>
                 </div>
               );

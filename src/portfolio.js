@@ -10,9 +10,9 @@ const illustration = {
 
 const greeting = {
   username: "James Jordan",
-  title: "James Jordan here, let's work together👨‍🔧",
+  title: "James Jordan here, let's work together",
   subTitle: emoji(
-    "Sites 🌐 graphs 📊 servers 🖧 spreadsheets 📝 documentation ✍️ JavaScript 👨‍💻  ReactJs => I'm your guy!"
+    "Front-End Developer: NextJS, Tailwindcss, React, Javascript, and more. With years of analytics and web development experience, I'm your guy for sites 🌐 graphs 📊 servers 🖧 spreadsheets 📝 documentation ✍️ and coding 👨‍💻 "
   ),
   resumeLink: "https://docs.google.com/document/d/1NvdS03IKCQ9IrqXdkVC6wcdHhJv1MOV5/edit?usp=sharing&ouid=108132765582127410218&rtpof=true&sd=true",
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -193,9 +193,10 @@ const bigProjects = {
           url: "https://github.com/CodeWarrior-debug/007-reviews"
         },
         //  you can add extra buttons here.
-      ]
+      ],
+      stackDescription:"NextJS, Tailwindcss, Firebase, TMDB API, chartjs"
     },{
-      // TODO: get pic  image: require("./assets/images/QuirkyQuiz.png"),
+      
       image: require("./assets/images/memento_multiverse.gif"),
       projectName: "Memento Multiverse",
       projectDesc: "Memento Multiverse is a fun and funny web store for merch that appreciates your favorite shows, their inside jokes, and transports you into their worlds.",
@@ -208,10 +209,11 @@ const bigProjects = {
           url: "https://github.com/CodeWarrior-debug/Memento-Multiverse"
         },
         //  you can add extra buttons here.
-      ]
+      ],
+      stackDescription:"Node, Express, React, mySQL"
     },
     {
-      // TODO: get pic  image: require("./assets/images/QuirkyQuiz.png"),
+      
       image: require("./assets/images/PokeBaller.gif"),
       projectName: "PokeBaller",
       projectDesc: "PokeBaller is a Card Inventory Organizer where you can digitally track your Pokemon cards. Eye-candy!",
@@ -224,7 +226,8 @@ const bigProjects = {
           url: "https://github.com/CodeWarrior-debug/PokeBaller"
         },
         //  you can add extra buttons here.
-      ]
+      ],
+      stackDescription:"Node, Express, Handlebars, mySQL"
     },
   ],
   display: true // Set false to hide this section, defaults to true

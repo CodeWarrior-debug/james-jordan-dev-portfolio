@@ -196,7 +196,7 @@ const bigProjects = {
       ]
     },{
       // TODO: get pic  image: require("./assets/images/QuirkyQuiz.png"),
-      image: require("./assets/images/memento_tv_multiverse.png"),
+      image: require("./assets/images/memento_multiverse.gif"),
       projectName: "Memento Multiverse",
       projectDesc: "Memento Multiverse is a fun and funny web store for merch that appreciates your favorite shows, their inside jokes, and transports you into their worlds.",
       footerLink: [{

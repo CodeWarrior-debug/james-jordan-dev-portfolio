@@ -21,12 +21,12 @@ export default function StartupProject() {
       <div className="main" id="projects">
 
           <h1 className="skills-heading">{bigProjects.title}</h1>
-          <p
+          {/* <p
             className="subTitle project-subtitle" 
-            // className={ isDark ? "dark-mode project-subtitle" : "subTitle project-subtitle" }
+            className={ isDark ? "dark-mode project-subtitle" : "subTitle project-subtitle" }
           >
             {bigProjects.subtitle}
-          </p>
+          </p> */}
 
           <div className="projects-container">
             {bigProjects.projects.map((project, i) => {
@@ -64,10 +64,11 @@ export default function StartupProject() {
                         })}
                       </div>
                     ) : null}
-                    { project.techUsed ?
+                    
+                    { project.stackDescription ?
                       <div>
-
-                        "TECH: " & {project.stackDescription}
+<br/>
+                        {project.stackDescription}
                       </div>
                       : null
                     }

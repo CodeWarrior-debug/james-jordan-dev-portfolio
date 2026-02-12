@@ -12,7 +12,7 @@ const greeting = {
   username: "James Jordan",
   title: "James Jordan here, let's work together",
   subTitle: emoji(
-    "Front-End Developer: NextJS, Tailwindcss, React, Javascript, and more. With years of analytics and web development experience, I'm your guy for sites 🌐 graphs 📊 servers 🖧 spreadsheets 📝 documentation ✍️ and coding 👨‍💻 "
+    "Full Stack Developer: C#/.NET, React, Angular, TypeScript, Node.js, and more. With years of enterprise development and analytics experience, I'm your guy for sites 🌐 graphs 📊 servers 🖧 APIs 🔗 and coding 👨‍💻 "
   ),
   resumeLink: "https://docs.google.com/document/d/1NvdS03IKCQ9IrqXdkVC6wcdHhJv1MOV5/edit?usp=sharing&ouid=108132765582127410218&rtpof=true&sd=true",
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -33,15 +33,15 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What do I know?",
   skills: [
-    emoji("🛡️ Front-end web development & UI"),
+    emoji("🛡️ Full-stack web & API development — C#/.NET, React, Angular, TypeScript, Node.js"),
     emoji(
-      "🛡️ Trained Full Stack: Happy to work on routing, API's, and back-end needs"
+      "🛡️ Enterprise backend: ASP.NET Core, Entity Framework Core, NestJS, PostgreSQL, GraphQL"
+    ),
+    emoji(
+      "🛡️ Cloud & DevOps: AWS (Lambda, S3, SQS), Docker, Kubernetes, CI/CD pipelines"
     ),
     emoji(
       "🛡️ A proven team player with project management experience & a passion for smooth user experiences"
-    ),
-    emoji(
-      "🛡️ Be sure to check out the recommendations, endorsements, & skills sections of James's LinkedIn!!!"
     )
   ],
 
@@ -77,33 +77,32 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
+      skillName: "angular",
+      fontAwesomeClassname: "fab fa-angular"
+    },
+    {
+      skillName: ".NET",
+      fontAwesomeClassname: "fab fa-microsoft"
+    },
+    {
+      skillName: "aws",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
       skillName: "bootstrap",
       fontAwesomeClassname: "fab fa-bootstrap"
     },
     {
       skillName: "github",
       fontAwesomeClassname: "fab fa-github-alt"
-    },
-    {
-      skillName: "excel",
-      fontAwesomeClassname: "far fa-file-excel" 
-    },
-    {
-      skillName: "powerpoint",
-      fontAwesomeClassname: "far fa-file-powerpoint"
-    },
-    {
-      skillName: "outlook",
-      fontAwesomeClassname: "fas fa-envelope-square"
-    },
-    {
-      skillName: "word",
-      fontAwesomeClassname: "fas fa-file-word" 
     }
 
   ],
   display: true // Set false to hide this section, defaults to true
-  //TODO: Add MS Office, VBA
 };
 
 // Education Section
@@ -137,7 +136,29 @@ const educationInfo = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [{
-      role: "Category Insights Analyst",
+      role: "Software Engineer",
+      company: "IRALogix",
+      companylogo: require("./assets/images/iralogix_logo.svg"),
+      date: "Oct 2025 - Present",
+      desc: "Full-stack development on financial technology platform powering $1.3B+ in IRA assets under administration",
+      descBullets: [
+        "Backend: ASP.NET Core 8 APIs, Entity Framework Core with PostgreSQL, Hangfire job scheduling, AWS Lambda/S3/SQS, Serilog + Datadog monitoring",
+        "Frontend: Angular with Material UI & Harness feature flags, React Redux Toolkit, Apollo GraphQL, comprehensive xUnit/NSubstitute test infrastructure"
+      ]
+    },
+    {
+      role: "Full Stack Web Developer",
+      company: "Radiant Digital",
+      companylogo: require("./assets/images/radiant_digital_logo.svg"),
+      date: "Apr 2023 - Sep 2025",
+      desc: "Built full-stack web applications for enterprise clients including Verizon across React, TypeScript, NestJS microservices, and Apollo GraphQL",
+      descBullets: [
+        "TypeScript/NestJS backend microservices with Apache Pulsar eventing, Apollo GraphQL with PostgreSQL on AWS, Flyway database migrations",
+        "Kubernetes/Jenkins/Docker CI/CD, Elasticsearch logging, Node.js security remediation with Blackduck & Sysdig, demonstrated E2E reporting flow to 80+ stakeholders"
+      ]
+    },
+    {
+      role: "Business Intelligence Engineer",
       company: "SellEthics Marketing Group",
       companylogo: require("./assets/images/sellethics_2.jpg"),
       date: "Feb 2017 - Nov 2020",

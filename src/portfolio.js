@@ -43,6 +43,11 @@ const skillsSection = {
     emoji(
       "🛡️ A proven team player with project management experience & a passion for smooth user experiences"
     )
+    // Previous skills:
+    // emoji("🛡️ Front-end web development & UI"),
+    // emoji("🛡️ Trained Full Stack: Happy to work on routing, API's, and back-end needs"),
+    // emoji("🛡️ A proven team player with project management experience & a passion for smooth user experiences"),
+    // emoji("🛡️ Be sure to check out the recommendations, endorsements, & skills sections of James's LinkedIn!!!")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -99,7 +104,23 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "github",
       fontAwesomeClassname: "fab fa-github-alt"
+    },
+    {
+      skillName: "excel",
+      fontAwesomeClassname: "far fa-file-excel"
     }
+    // {
+    //   skillName: "powerpoint",
+    //   fontAwesomeClassname: "far fa-file-powerpoint"
+    // },
+    // {
+    //   skillName: "outlook",
+    //   fontAwesomeClassname: "fas fa-envelope-square"
+    // },
+    // {
+    //   skillName: "word",
+    //   fontAwesomeClassname: "fas fa-file-word"
+    // }
 
   ],
   display: true // Set false to hide this section, defaults to true
